@@ -1,16 +1,17 @@
 package sur.springframework.surdi.controllers;
 
+import guru.springframework.sfgdi.controllers.PropertyInjectedController;
+import guru.springframework.sfgdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import sur.springframework.surdi.services.ConstructorGreetingService;
 
 class PropertiesInjectedControllerTest {
-    PropertiesInjectedController controller;
+    PropertyInjectedController controller;
 
     @BeforeEach
     void setUp() {
-        controller = new PropertiesInjectedController();
+        controller = new PropertyInjectedController();
         controller.greetingService = new ConstructorGreetingService();
     }
 

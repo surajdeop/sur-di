@@ -1,8 +1,9 @@
 package sur.springframework.surdi.controllers;
 
+import guru.springframework.sfgdi.controllers.SetterInjectedController;
+import guru.springframework.sfgdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import sur.springframework.surdi.services.ConstructorGreetingService;
 
 class SetterInjectedControllerTest {
 
